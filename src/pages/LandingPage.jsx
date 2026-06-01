@@ -22,8 +22,8 @@ const aboutData = {
   image_url: heroImage,
   stats: [
     { value: '3+', label: 'سنوات خبرة' },
-    { value: '50+',label: 'جلسة علاجية' },
-    { value: '500+', label: 'مستفيد' },
+    { value: '1800+',label: 'جلسة علاجية' },
+    { value: '1500+', label: 'مستفيد' },
   ],
 };
 
@@ -634,13 +634,8 @@ export default function LandingPage() {
 
       <footer className="bg-forest text-white/70 border-t border-white/10 py-14">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center border border-white/10">
-              <span className="text-white font-heading text-lg">د</span>
-            </div>
-            <span className="text-white font-heading text-lg">{t('landing.footer_brand')}</span>
-          </div>
-          <p className="text-white/50">{t('landing.footer_copyright', { year: new Date().getFullYear() })}</p>
+          <p className="text-white font-heading text-lg">{t('landing.footer_brand')}</p>
+          <p className="text-white/50">{t('landing.footer_copyright')}</p>
           <p className="text-white/40 text-sm mt-4">
             صنع بواسطة{' '}
             <a
