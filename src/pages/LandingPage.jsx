@@ -369,7 +369,7 @@ export default function LandingPage() {
                   لمعرفه الجلسات المتاحه
                 </a>
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                  href={`https://www.facebook.com/share/1AmnWEVTht/`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white px-4 py-3 rounded-xl font-semibold hover:bg-white/20 transition-all active:scale-[0.98] whitespace-nowrap"
