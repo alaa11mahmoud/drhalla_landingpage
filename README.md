@@ -16,13 +16,3 @@
 npm install
 npm run dev
 ```
-
-## البناء للإنتاج
-
-```bash
-npm run build
-```
-
-## النشر
-
-يتكامل تلقائياً مع Vercel عند الدفع إلى `main`.
